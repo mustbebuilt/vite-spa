@@ -68,7 +68,6 @@ const App = () => {
   // Render staff members list
   const staffList = staffMembers.map((staff, i) => (
     <Staff key={i} name={staff.name} email={staff.email} editEvent={() => setCurrentStaffNum(i)}>
-      Some content
     </Staff>
   ));
 
